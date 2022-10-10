@@ -479,11 +479,6 @@ p {
   color: var(--color-white);
 }
 
-@media screen and (max-width: 446px){
-  .award_detail h2 {
-    font-size: 20px;
-  }
-}
 
 .vision {
   display: flex;
