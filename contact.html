@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Page</title>
+    <link rel="icon" href="imgs/LOGO.png" sizes="60X60" type="favicon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="Fontawesome/css/all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <main data-aos="slide-left" data-aos-duration="2000">
+      <section id="left-page">
+        <img class="main" src="vfvgfgfvvvvvv.png" alt="#" />
+
+        <div class="boom1">
+          <div class="flex">
+            <img src="location.png" alt="" />
+            <h4>Address</h4>
+          </div>
+          <p>52, Moshalashi Obalende - Ikoyi, Lagos</p>
+        </div>
+        <div class="boom">
+          <div class="flex">
+            <img src="call.png" alt="" />
+            <h4>Let's talk</h4>
+          </div>
+
+          <a href="tel:+2348094848465">+2348094848465</a>
+        </div>
+
+        <div class="boom">
+          <div class="flex">
+            <img src="mail.png" alt="" />
+            <h4>General Support</h4>
+          </div>
+
+          <a href="mailto:eliteschoolscup@gmail.com"
+            >eliteschoolscup@gmail.com</a
+          >
+        </div>
+
+        <div class="circle"></div>
+
+       
+      </section>
+
+      <section id="right-page">
+        <h3>Contact Us</h3>
+
+        <form
+          action="https://formspree.io/f/xnqrzadk" method="POST"
+          method="POST"
+        >
+          <div id="normal">
+            <p>TELL US YOUR NAME</p>
+            <input
+              type="text"
+              name="First-Name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              id="last"
+              type="text"
+              name="Last-Name"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <div id="real-form">
+            <p>Enter your email</p>
+            <input
+              type="email"
+              name="Email"
+              placeholder="example@gmail.com"
+              required
+            />
+          </div>
+          <div id="real-form">
+            <p>Enter your phone number</p>
+            <input
+              type="tel"
+              name="Phone-number"
+              placeholder="Phone number"
+              required
+            />
+          </div>
+          <div id="real-form">
+            <p>Message</p>
+            <textarea
+              name="Message-Box"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Write us a message"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" value="Submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <script src="contact.js"></script>
+  </body>
+</html>

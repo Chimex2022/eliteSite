@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Elite sports signup page</title>
+    <link rel='icon' type='favicon' href="./images/LOGO.png">
+</head>
+<body>
+   <!-- Start of the header page -->
+  <header>
+   <div class="logo">
+     <a href="index.html"><img src="imgs/LOGO.png" class="logo_box" /></a>
+   </div>
+   <nav>
+     <ul>
+       <li><a href="#about">About</a></li>
+       <li><a href="#game">Games</a></li>
+       <li><a href="#technical">Technical Team</a></li>
+       <li><a href="Competition.html">Competition</a></li>
+       <li><a href="Contact.html">Contact</a></li>
+     </ul>
+   </nav>
+   <div class="btn">
+     <a href="signup.html">Sign up</a>
+   </div>
+ </header>
+ <!-- End of the header page -->
+  <div class="parent">
+    <div class="child__one">
+      <div>
+           <h3>Register for Elite 
+          School Cup
+        </h3>
+      </div>
+    </div>
+
+    <div class="child__second">
+      <div>
+        <img src="/images/LOGO.png" alt="">
+      </div>
+      <div>
+        <form action="https://formspree.io/f/xnqrzadk" method="POST">
+          <label>Full Name :</label>
+          <input type="text" name="" id="nameInput" placeholder="your full name">
+          <label>Email :</label>
+          <input type="email" name="" id="emailInput" placeholder="your email address">
+          <label>username :</label>
+          <input type="text" name="" id="userInput" placeholder="username">
+          <label>password :</label>
+          <input type="password" name="" id="passwordInput" placeholder="your password">
+
+          <div class="content">
+            <h5> <a href="signin.html">I have an account  ?</a> </h5>
+          </div>
+          <button id="sub_btn" type="submit">
+            submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <footer data-aos="zoom-out">
+    <div class="row">
+      <div class="col">
+        <h3>BUSINESS SOLUTIONS</h3>
+        <span>Corporative partners</span>
+        <hr />
+        <span>Customized educational projects</span>
+        <hr />
+        <span>Academics partners</span>
+        <hr />
+        <h3>SOCIAL NETWORKS</h3>
+        <div class="social_links">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="imgs/face.jfif"
+          /></a>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><img src="imgs/twitt.png"
+          /></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><img src="imgs/play.png"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="imgs/ins.jfif"
+          /></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="imgs/link.png"
+          /></a>
+        </div>
+      </div>
+      <div class="col">
+        <h3>ELITE SCHOOL CUP ASSOCIATION</h3>
+        <span>Mission, vision and values</span>
+        <hr />
+        <span>Growth</span>
+        <hr />
+        <span>Elite Sport Cup Association</span>
+        <hr />
+        <span>Elite Sport Cup College</span>
+        <hr />
+        <span>Learning Model</span>
+        <hr />
+        <span>Career Services</span>
+        <hr />
+        <span>Brand Guide</span>
+        <hr />
+        <span>Academics partners</span>
+        <hr />
+      </div>
+
+      <div class="col">
+        <h3>UPCOMING PROGRAMS</h3>
+        <span>Academics partners</span>
+        <hr />
+        <span>Course in Digital Marketing in Sport Online</span>
+        <hr />
+        <span>Master in Sport Management Online</span>
+        <hr />
+        <span>Master in Football Business and Partnership</span>
+        <hr />
+        <span>Master in Sport Marketing and Sponsorship</span>
+        <hr />
+        <span>Course in Fan Engagement Online</span>
+        <hr />
+      </div>
+
+      <div class="col">
+        <h3>MEMBERS</h3>
+        <span>American International School Lagos</span>
+        <hr />
+        <span>British International School Lagos</span>
+        <hr />
+        <span>Netherlands International School Lagos</span>
+        <hr />
+        <div class="contact_info">
+          <img src="imgs/home (1).png" />
+          <a href="#">52, Mosholashi, Obalande - Ikoyi, Lagos</a>
+        </div>
+
+        <div class="contact_info">
+          <img src="imgs/Vector.png" />
+          <a href="tel:+23494848465, +23457764256"
+            >+23494848465, +23457764256</a
+          >
+        </div>
+
+        <div class="contact_info">
+          <img src="imgs/Vector (1).png" />
+          <a href="mailto:escaschoolscup@gmail.com"
+            >escaschoolscup@gmail.com</a
+          >
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
+  <script type="module">
+    
+
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js";
+    
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDi-YelprwhwCnuinvvCQQ2JL-nBczZX3c",
+      authDomain: "elite-sports-86169.firebaseapp.com",
+      databaseURL: "https://elite-sports-86169-default-rtdb.firebaseio.com",
+      projectId: "elite-sports-86169",
+      storageBucket: "elite-sports-86169.appspot.com",
+      messagingSenderId: "900369999477",
+      appId: "1:900369999477:web:6816259769d50bec56fa3c"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+       import  {getDatabase, ref, set, child, get}
+      from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+
+      const db = getDatabase();
+  </script>
+
+
+
+  <script src="./js/signup.js"></script>
+</body>
+</html>
+
