@@ -110,76 +110,7 @@ nav a:hover {
 
 
 
-.title {
-  font-size: 15px;
-  margin-top: 80px;
-  text-align: center;
-  color: var(--color-dark);
-  font-weight: bolder;
-}
 
-.title h2{
-  color: var(--color-white);
-  font-size: 25px;
-}
-.desc-img {
-  display: flex;
-  margin-top: 40px;
-  font-size: 15px;
-  justify-content: center;
-  gap: 2rem;
-  align-items: center;
-}
-
-.desc-img p {
-  color: var(--color-white);
-}
-
-.author-img > img {
-  width: 100%;
-  height: 100%;
-}
-
-
-
-.head-title {
-  margin-top: 80px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-size: 17px;
-  font-weight: bolder;
-}
-
-.head-title h2{
-  color: var(--color-white);
-  font-size: 25px;
-}
-
-.section-directors-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 5%;
-  cursor: pointer;
-}
-
-.section-directors-1 > img {
-  width: 100%;
-  height: 100%;
-}
-.section-directors-2 {
-  padding: 0 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 4rem;
-  margin-bottom: 6rem;
-}
-.section-directors-2 img {
-  transform: scale(0.9);
-  border-radius: 10px;
-}
 
 .gallery_badge {
   width: 90%;
@@ -296,7 +227,7 @@ footer {
   justify-content: space-between;
   margin-top: 3rem;
   background-color: var(--color-dark);
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
