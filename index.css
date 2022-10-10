@@ -580,49 +580,7 @@ p {
   color: var(--color-white);
   font-size: 14px;
 }
-@media screen  and (max-width: 996px){
-  .container_images img {
-    width: 130px;
-    height: 130px;
-  }
-  .technical_info > span:nth-child(1) {
-    font-size: 16px;
-    margin-top: 1rem;
-  }
-  .technical_info > span:nth-child(2) {
-    color: var(--color-light-blue);
-    font-size: 14px;
-    text-align: center;
-    font-weight: bolder;
-  }
-  
-  .technical_info small {
-    color: var(--color-white);
-    font-size: 14px;
-  }
-}
 
-@media screen and (max-width: 780px){
-  .container_images img {
-    width: 100px;
-    height: 100px;
-  }
-  .technical_info > span:nth-child(1) {
-    font-size: 12px;
-    margin-top: 1rem;
-  }
-  .technical_info > span:nth-child(2) {
-    color: var(--color-light-blue);
-    font-size: 11px;
-    text-align: center;
-    font-weight: bolder;
-  }
-  
-  .technical_info small {
-    color: var(--color-white);
-    font-size: 14px;
-  }
-}
 
 
 .btn_sport {
@@ -656,37 +614,7 @@ p {
   align-items: center;
   height: 200px;
 }
-@media screen and (max-width: 1028px) {
-  .sport_marketing_section {
-    margin-left: 30px;
-    width: 900px;
-  }
-}
-@media screen and (max-width: 944px) {
-  .sport_marketing_section {
-    margin-left: 30px;
-    width: 700px;
-  }
-}
-@media screen and (max-width: 766px) {
-  .sport_marketing_section {
-   margin-right: 120px;
-   width: 500px;
-  }
-}
-@media screen and (max-width: 548px) {
-  .sport_marketing_section {
-   margin-right: 120px;
-   width: 400px;
-  }
-}
-@media screen and (max-width: 446px) {
-  .sport_marketing_section {
-  padding-right: 320px;
-   width: 400px;
-   height: 400px;
-  }
-}
+
 
 .images_marketing {
   display: flex;
