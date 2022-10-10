@@ -38,7 +38,7 @@ header {
   font-size: 80%;
   justify-content: space-between;
   padding: 0 5%;
-  font-size: 20px;
+  font-size: 15px;
   position: fixed;
   z-index: 3;
   width: 90%;
@@ -692,6 +692,455 @@ p {
   margin-top: 1rem;
   padding: 0.5px;
 }
+
+/* Start of competition css */
+.image-banner {
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery_badge {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--color-dark-blue);
+  border-radius: 10px;
+}
+
+.gallery_badge h3 {
+  color: var(--color-white);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.hold-ball {
+  margin: 0 auto;
+  width: 60%;
+}
+.hold-ball > img {
+  width: 100%;
+}
+.hold-ball > img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.first-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+.first-img img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 2rem;
+  object-position: bottom;
+}
+.first-img img:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.img-p p {
+  text-align: center;
+  color: var(--color-white);
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.description {
+  margin: 0 auto;
+  text-align: center;
+}
+.description h2 {
+  margin-top: 40px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: var(--color-dark);
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.description span {
+  margin: 0 auto;
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 1.3;
+  font-size: 18px;
+  color: var(--color-white);
+  font-weight: bolder;
+}
+
+
+
+.congrats_message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: var(--color-dark-blue);
+  margin-top: 3rem;
+}
+
+.congrats_message span {
+  font-size: 15px;
+  text-align: justify;
+  font-weight: bolder;
+  color: var(--color-white);
+}
+
+.congrats_message img {
+  transform: scale(0.7);
+}
+/* End of competition css */
+
+/* Start of signin css */
+.parent{
+  height: 100vh;
+  width: 100%;
+  background-color: azure;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.child__one{
+  background-image: url(/images/footallimage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  
+
+}
+.child__one div{
+  height: 600px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child__one div h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.7rem;
+  width: 260px;
+  color: azure;
+  word-wrap: break-word;
+}
+.content h5{
+  color: rgb(6, 131, 241);
+  cursor: pointer;
+}
+
+
+
+.child__second{
+  width: 300px;
+  background-color: azure;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 240px;
+ 
+}
+.child__second > div > form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.child__second > div > form > input{
+  background-color: azure;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  width: 240px;
+  padding-bottom: 1rem;
+}
+.content h3{
+  background-color: aqua;
+}
+
+.content h5 a{
+  text-decoration: none;
+}
+
+button{
+  height: 30px;
+  background-color: hwb(16 31% 0%);
+  color: hwb(208 94% 0%);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  text-transform: capitalize;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover{  
+  background-color: rgb(255, 255, 255);
+  color: rgb(248, 120, 0);
+  border: 1px solid #000000;
+  text-transform: uppercase;
+}
+
+h5 a{
+ text-decoration: none;
+ color: #000000;
+ font-size: 0.8rem;
+}
+.form-check-label{
+font-size: 0.8rem;
+}
+/* End of signin css */
+
+/* Start of contact css */
+main {
+  display: flex;
+}
+#left-page {
+  display: block;
+  margin-bottom: 50px;
+  padding-left: 10%;
+  padding-top: 5%;
+  color: white;
+  height: 100vh;
+
+  width: 50%;
+  background-color: rgb(105, 9, 105);
+}
+#left-page p {
+  font-size: 0.7rem;
+  padding-left: 6%;
+}
+#left-page a {
+  color: orange;
+  font-size: 0.7rem;
+  text-decoration: none;
+  padding-left: 6%;
+}
+#left-page .boom1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#left-page .boom {
+  margin-bottom: 50px;
+}
+#left-page div img {
+  width: 20px;
+  margin-right: 10px;
+}
+#left-page .flex {
+  display: flex;
+  margin-bottom: 10px;
+}
+#left-page .main {
+  width: 100px;
+  height: 13vh;
+}
+.circle {
+  background-color: orange;
+  width: 100px;
+  height: 15vh;
+  border-radius: 50%;
+}
+#phone {
+  display: flex;
+}
+#right-page {
+  padding-top: 7%;
+
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 20px;
+}
+#right-page h3 {
+  text-align: center;
+}
+#right-page p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#right-page #normal input {
+  padding: 10px;
+  width: 49.3%;
+}
+/* #right-page #normal input #last{
+    padding: 20px;
+} */
+#right-page #real-form input {
+  padding: 10px;
+  width: 100%;
+}
+#right-page #real-form textarea {
+  width: 100%;
+  padding: 10px;
+}
+#right-page button {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10%;
+  background-color: orange;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 920px) {
+  main {
+    display: block;
+  }
+  #left-page {
+    width: 100%;
+    height: 50vh;
+    padding-top: 10px;
+  }
+
+  #left-page .boom1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  #left-page .boom {
+    margin-bottom: 30px;
+  }
+  #left-page div img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  #left-page .flex {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .circle {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 100px;
+  }
+  #right-page button {
+    margin-bottom: 20px;
+  }
+}
+/* End of contact css */
+
+
+
+/* Start of signup css */
+.parent{
+  height: 100vh;
+  width: 100%;
+  background-color: #f0ffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.child__one{
+  background-image: url(/images/footallimage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  
+
+}
+
+
+.child__one div{
+  height: 600px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.child__one div h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.7rem;
+  width: 200px;
+  color: #f0ffff;
+  word-wrap: break-word;
+}
+
+
+.content h5{
+  color: rgb(6, 131, 241);
+  cursor: pointer;
+}
+
+.content h5 a:hover{
+  color: #ff7f50e5;
+}
+
+.child__second{
+  width: 300px;
+  background-color: #f0ffff;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 240px;
+ 
+}
+.child__second > div > form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.child__second > div > form > input{
+  background-color: #f0ffff;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  width: 240px;
+  padding-bottom: 1rem;
+}
+.content h3{
+  background-color: #00ffff;
+}
+
+.content h5 a{
+  text-decoration: none;
+  color: #000000;
+}
+
+button{
+  height: 30px;
+  background-color: hwb(16 31% 0%);
+  color: hwb(208 94% 0%);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: capitalize;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover{
+ 
+  background-color: rgb(255, 255, 255);
+  color: rgb(248, 120, 0);
+  border: 1px solid #000000;
+  text-transform: uppercase;
+}
+
+/* End of signup css */
 
 hr {
   width: 150%;
